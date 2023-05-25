@@ -8,5 +8,10 @@
 </head>
 <body>
     
+    <?php 
+        //Call Menu Bar
+        include 'menu-bar.php'; 
+    ?> 
+
 </body>
 </html>

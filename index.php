@@ -9,8 +9,8 @@
 <body>
 
     <?php 
-    //Call Menu Bar
-    include 'menu-bar.php'; 
+        //Call Menu Bar
+        include 'menu-bar.php'; 
     ?> 
 
 </body>
