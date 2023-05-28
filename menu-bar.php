@@ -8,17 +8,18 @@
 
 <link rel="stylesheet" href="menu-bar-style.css">
 
+<header>
 <div class = "menu-bar">
   <nav>
-    <a href="index.php"><img src="images/koi-ramen-logo.png" alt="Home" ></a>  
-      <div class = "menu-links">
-        <ul>
-          <li><a href="menu-ramen.php">MENU</a></li>
-          <li><a href="about-us.php">ABOUT US</a></li>
-          <li><a href="contact-us.php">CONTACT US</a></li>
-          <li><a href="book-now.php">BOOK NOW</a></li>
-        </ul>
-      </div>
+    <a href="index.php"><img src="images/logo-header.png" alt="Logo"></a>  
+    <div class = "menu-links">
+      <ul>
+        <li><a href="menu-ramen.php">MENU</a></li>
+        <li><a href="about-us.php">ABOUT US</a></li>
+        <li><a href="contact-us.php">CONTACT US</a></li>
+        <li><a href="book-now.php">BOOK NOW</a></li>
+      </ul>
+    </div>
   </nav>
 </div>
-
+</header>
