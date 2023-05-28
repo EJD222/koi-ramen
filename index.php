@@ -136,7 +136,7 @@
 
             <section class="contact-us-section">
                 <div class="contact-us-div">
-                    <img src = "/images/contact-us-background.png" alt=" Contact Us Background" class="contact-us-bg"/> 
+                    <img src = "/images/contact-us-background.png" alt="Contact Us Background" class="contact-us-bg"/> 
                     <div class="contact-us-details">
                         <div class="contact-us-text">
                             <p class="cs-title">Reach Out and Let Your<br />
@@ -154,7 +154,6 @@
                             <button type="button" class="contact-button" onclick="window.location.href='contact-us.php'">CONTACT US</button>
                         </div>
                     </div>
-                       
                 </div>
             </section>
             
