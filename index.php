@@ -22,7 +22,7 @@
                 //Call Menu Bar
                 include 'menu-bar.php'; 
             ?>
-            </header>
+            </header> 
 
             <section class="welcome-section">
                 <div class="welcome-div">
@@ -30,22 +30,22 @@
                     <p class ="brand-name">KOI RAMEN</p>
                 </div>
                 <div class ="welcome-images">
-                    <img src = "/images/ramen-bar.jpg" alt="Ramen Bar" width="700" height="500" class="ramen-bar-w"/>
-                    <img src = "/images/center-piece.png" alt="Ramen" width="500" height="500" class="center-piece-w"/>
+                    <img src = "/images/ramen-bar.jpg" alt="Ramen Bar" style="width: 1348.43px; height: 527.51px; object-fit: cover;" class="ramen-bar-w"/>
+                    <img src = "/images/center-piece.png" alt="Ramen" style="width: 1091.35px; height: 1093.93px; object-fit: cover;" class="center-piece-w"/>
                 </div>
             </section>
 
             <section class="icons-section">
                 <div class="authentic-div">
                     <div class="authentic-details">
-                        <img src = "/images/authentic.png" alt="Authentic" width="100" height="100" class="authentic"/>
+                        <img src = "/images/authentic.png" alt="Authentic" class="authentic"/>
                         <p class="authentic-lbl">Authentic</p>
                     </div>
                 </div>
                 <div class="flavorful-div">
                     <div class="horizontal-line-1"></div>
                     <div class="flavorful-details">
-                        <img src = "/images/flavorful.png" alt="Flavorful" width="100" height="100" class="flavorful"/>
+                        <img src = "/images/flavorful.png" alt="Flavorful" class="flavorful"/>
                         <p class="flavorful-lbl">Flavorful</p>
                     </div>
                     <div class="horizontal-line-2"></div>
@@ -67,10 +67,10 @@
                     that awaits you at our esteemed establishment. <br />
                     <button type="button" class="about-button" onclick="window.location.href='about-us.php'">ABOUT US</button>
                 </div>
-                <img src = "/images/about-ramen.png" alt="About Ramen" width="1903" height="1925" class="about-ramen"/>
-                <img src = "/images/wave2.png" alt="Wave 2" width="1903" height="110" class="wave2"/>
+                <img src = "/images/about-ramen.png" alt="About Ramen" class="about-ramen"/>
+                <img src = "/images/wave2.png" alt="Wave 2" class="wave2" />
             </section>
-
+    
             <section class="ramen-chronicles-section">
                 <div class="ramen-chronicles-div">
                     <div class="ramen-chronicles-div2">
@@ -96,8 +96,8 @@
                                     perfectly cooked noodles, Koi Ramen <br />
                                     delivers an unforgettable dining <br />
                                     experience.” <br />
-                                <p class="critic-author2">— Carlos Gomez, Food <br />
-                                    Explorer Magazine 
+                                <p class="critic-author2">— Carlos Gomez, 
+                                    Food <br /> Explorer Magazine 
                                 </p>
                             </div>
                             <div class="ramen-testimonials-3">
@@ -136,10 +136,7 @@
 
             <section class="contact-us-section">
                 <div class="contact-us-div">
-                    <div class="contact-us-images">
-                        <img src = "/images/wave4-cropped.png" alt="Wave 4 Cropped" width="1347.99" height="607.89" class="wave-4-cropped"/>
-                        <img src = "/images/night-market.jpg" alt="Wave 4" style="width: 758px; height: 968px; object-fit: cover;" class="night-market"/>
-                    </div>
+                    <img src = "/images/contact-us-background.png" alt=" Contact Us Background" class="contact-us-bg"/> 
                     <div class="contact-us-details">
                         <div class="contact-us-text">
                             <p class="cs-title">Reach Out and Let Your<br />
@@ -156,11 +153,11 @@
                             </p>
                             <button type="button" class="contact-button" onclick="window.location.href='contact-us.php'">CONTACT US</button>
                         </div>
-                        <img src = "/images/wave4-cropped-2.png" alt="Wave 4 Cropped 2" width="557" height="382" class="wave-4-cropped2"/>
                     </div>
+                       
                 </div>
             </section>
-
+            
             <footer>
                 <?php 
                 //Call Footer
