@@ -30,8 +30,8 @@
                     <p class ="brand-name">KOI RAMEN</p>
                 </div>
                 <div class ="welcome-images">
-                    <img src = "/images/ramen-bar.jpg" alt="Ramen Bar" style="width: 1348.43px; height: 527.51px; object-fit: cover;" class="ramen-bar-w"/>
-                    <img src = "/images/center-piece.png" alt="Ramen" style="width: 1091.35px; height: 1093.93px; object-fit: cover;" class="center-piece-w"/>
+                    <img src = "/images/ramen-bar.jpg" alt="Ramen Bar" style="width: 1182.52px; height: 462.6px; object-fit: cover;" class="ramen-bar-w"/>
+                    <img src = "/images/center-piece.png" alt="Ramen" style="width: 957.07px; height: 959.33px; object-fit: cover;" class="center-piece-w"/>
                 </div>
             </section>
 
@@ -117,23 +117,6 @@
                 </div>
             </section>
 
-            <section class="menu-section">
-                <p> SIGNATURE BOWLS </p>
-                <img src = "/images/koi.png" alt="Koi Circle" width="400" height="450"/>
-                <img src = "/images/hokkaido-miso-ramen.png" alt="Hokkaido Miso Ramen" width="300" height="300"/>
-                <img src = "/images/spicy-beef-ramen.png" alt="Spicy Beef Ramen" width="200" height="200"/>
-                <img src = "/images/black-garlic-chicken-ramen.png" alt="Black Garlic Chicken Ramen" width="200" height="200"/>
-                <img src = "/images/arrow.png" alt="Arrow" width="100" height="88"/>
-                <p>Hokkaido Miso Ramen</p>
-                <img src = "/images/arrow.png" alt="Arrow" width="100" height="88"/>
-                <p>A rich and hearty noodle soup with <br />
-                a savory miso broth, topped with <br />
-                various ingredients. <br />
-                </p>
-                <p>P500</p>
-                <button type="button">MENU</button>
-            </section>
-
             <section class="contact-us-section">
                 <div class="contact-us-div">
                     <img src = "/images/contact-us-background.png" alt="Contact Us Background" class="contact-us-bg"/> 
@@ -157,6 +140,66 @@
                 </div>
             </section>
             
+            <section class="quote-section">
+                <div class="quote-div">
+                    <div class="q-wave">
+                        <img src="/images/wave6.png" alt="Wave 6" width="1485" height="653" class="wave6" />
+                    </div>
+                    <div class="quote-container">
+                        <p class="ramen-quote">“Ramen: A culinary<br>masterpiece that<br>warms the heart and<br>satisfies the soul.”</p>
+                        <img src="/images/springbits-group.png" alt="Spring Bits Group" width="602" height="449" class="springbits-group" />
+                    </div>
+                    <div class="q-creamy-ramen">
+                        <img src="/images/creamy-ramen.png" alt="Creamy Ramen" width="690" height="485" class="creamy-ramen" />
+                </div>
+                </div>
+            </section>
+
+            <section class="mq-section">
+                <div class="mq-div">
+                    <marquee loop>
+                    <p>
+                        <span class="ramen-magic">RAMEN MAGIC,</span>
+                        <span class="made-inclusive"> made inclusive!</span>
+                        <span class="space"> </span>
+                        <span class="ramen-magic">RAMEN MAGIC,</span>
+                        <span class="made-inclusive">made inclusive!</span>
+                        <span class="space"> </span>
+                        <span class="ramen-magic">RAMEN MAGIC,</span>
+                        <span class="made-inclusive">made inclusive!</span>
+                        <span class="space"> </span>
+                        <span class="ramen-magic">RAMEN MAGIC,</span>
+                        <span class="made-inclusive">made inclusive!</span>
+                        <span class="space"> </span>
+                        <span class="ramen-magic">RAMEN MAGIC,</span>
+                        <span class="made-inclusive">made inclusive!</span>
+                    </p>
+                    </marquee>
+                </div>
+            </section>
+
+            <section class="chef-section">
+                <div class="chef-div">
+                  <img src = "/images/chef.jpg" alt="Chef" width="663" height="994" class="chef"/>
+                </div>
+            </section>
+
+            <section class="book-now-section">
+                <div class="book-now-div">
+                    <div class="resrv-and-button">
+                        <p class = "reserve-now">Reserve Your Spot for a<br/> Memorable 
+                        Ramen Experience!
+                        </p>
+                        <button type="button" class="book-now-button">BOOK NOW</button>
+                    </div>   
+                    <div class="bk-images">
+                        <img src = "/images/lantern.jpg" alt="Lantern" class="lantern"/>
+                        <img src = "/images/eating-ramen.jpg" alt="Eating Ramen" class="eating-ramen"/>
+                        <img src = "/images/chef2.jpg" alt="Chef 2" class="chef2"/>
+                    </div>   
+                </div>
+            </section>
+
             <footer>
                 <?php 
                 //Call Footer
