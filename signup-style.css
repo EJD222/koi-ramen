@@ -1,0 +1,173 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
+.guide {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+  
+.child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+}
+
+.whole-section{
+    background-color: #000000;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 960px;
+    width: 1920px;
+}
+
+.signup-bg{
+    position: absolute;
+    width: 1920px;
+    height: 962px;
+}
+
+.black-bg{
+    background-color: #000000;
+    position: absolute;
+    width: 499.16px;
+    height: 840px;
+    left: 715.21px;
+    top: 93.62px;
+}
+
+.signup{
+    position: absolute;
+    width: 436.2px;
+    height: 44.38px;
+    left: 747px;
+    top: 143px;
+
+    font-family: 'Syncopate';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 62px;
+    text-align: center;
+}
+
+.signup-text{
+    position: absolute;
+    width: 427px;
+    height: 20px;
+    left: 756.14px;
+    top: 194.02px;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #990005;
+}
+
+.signup-text2{
+    position: absolute;
+    width: 136.94px;
+    height: 12.68px;
+    left: 897.16px;
+    top: 572.2px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 50;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.signup-form{
+    margin: 0;
+    position: absolute;
+    width: 229.58px;
+    height: 19.02px;
+    left: 770.75px;
+    top: 266.92px;
+
+}
+
+.signup-form p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    font-weight: 50;
+}
+
+.signup-form input{
+    width: 390.29px;
+    margin-bottom: 30px;
+
+}
+
+.signup-form input[type="text"], input[type="email"], input[type="password"] {
+    font-size: 17px;
+    font-family: 'Inter';
+    font-style: normal;
+    border:none;
+    border-bottom: 1px solid;
+    background: transparent;
+    outline: none;
+    height: 40px; 
+    font-weight: 50;
+}
+
+.sign-up{
+    margin-top: 50px;
+    width: 390.98px;
+    height: 43.68px;
+    background: none;
+    border: 3px solid #990005;
+    border-radius: 5px;
+    transition: 0.5s;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.sign-up:hover{
+    margin-top: 50px;
+    width: 390.98px;
+    height: 43.68px;
+    background: #990005;
+    border: 3px solid #990005;
+    border-radius: 5px;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.signup-text2{
+    position: absolute;
+    width: 246.94px;
+    height: 12.68px;
+    left: 843px;
+    top: 895.38px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 50;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+}
