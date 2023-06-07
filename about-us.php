@@ -155,17 +155,7 @@
             <div class="atkoi">
                 <p>@koiramen</p>
             </div>
-
-    <?php 
-        //Call Menu Bar
-        include 'menu-bar.php'; 
-    ?> 
         </section>
-
-    <?php 
-        //Call Footer
-        include 'footer.php'; 
-    ?> 
         <?php 
             //Call Footer
             include 'footer.php'; 
