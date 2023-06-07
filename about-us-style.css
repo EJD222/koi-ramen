@@ -1,0 +1,352 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
+.guide {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+  
+.child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+}
+
+.whole-section {
+    background-color: #000000;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 3171.1px;
+}
+
+.section-one-left {
+    position: absolute;
+    font-size: 23px;
+    width: 589.15px;
+    height: 116px;
+    top: 20.4px;
+    left: 371.46px;
+}
+
+.section-one-right {
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    width: 554.24px;
+    height: 72.79px;
+    left: 1006.38px;
+    top: 30.4px;
+}
+
+.chef2 {
+    display: flex;
+    position: absolute;
+    left: 312px;
+    top: 195.4px;
+}
+
+.line1 {
+    display: flex;
+    position: absolute;
+    width: 1173.38px;
+    height: 0px;
+    top: 714.4px;
+    left:  378px;
+
+    border: 1px solid #990005;
+}
+
+.about-us1 {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    position: absolute;
+    width: 554px;
+    height: 63.27px;
+    left: 984px;
+    top: 747.4px;
+
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 17px;
+}
+
+.about-us2 {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    position: absolute;
+    width: 542.84px;
+    height: 359.55px;
+    left: 984px;
+    top: 804.4px;
+
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.about-us3 {
+    position: absolute;
+    width: 590.19px;
+    height: 72.79px;
+    left: 960px;
+    top: 1240.4px;
+
+    font-family: 'Syncopate';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.about1 {
+    position: absolute;
+    width: 561.03px;
+    height: 711.48px;
+    left: 371.46px;
+    top: 747.85px;
+}
+
+.koifish {
+    position: absolute;
+    width: 595.99px;
+    height: 642.71px;
+    left: 847px;
+    top: 900px;
+}
+
+.redbg {
+    background-color: #990005;
+    position: absolute;
+    width: 1296px;
+    height: 643px;
+    left: 312px;
+    top: 1516.4px;
+}
+
+.about-us4 {
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    width: 523px;
+    height: 281px;
+    top: 1615.4px;
+    left: 420px;
+
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: right;
+}
+
+.about-us5 {
+    position: absolute;
+    width: 561px;
+    height: 184px;
+    top: 1932.4px;
+    left: 388px;
+
+    font-family: 'Syncopate';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: right;
+}
+
+.about2{
+    position: absolute;
+    width: 593px;
+    height: 570.9px;
+    top: 1549.39px;
+    left: 980.94px;
+}
+
+.line2 {
+    position: absolute;
+    width: 1173.38px;
+    height: 0px;
+    Top: 2207.11px;
+    Left: 378.47px;
+
+    border: 1px solid #990005;
+}
+
+.about-us6 {
+    position: absolute;
+    width: 523px;
+    height: 41px;
+    left: 371px;
+    top: 2249.4px;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 46px;
+}
+
+.team {
+    position: absolute;
+    width: 1188px;
+    height: 411px;
+
+    left: 370px;
+    top: 2340.4px;
+}
+
+.elj1 {
+    position: absolute;
+    width: 270.35px;
+    height: 23.9px;
+    top: 2768.38px;
+    left: 373.21px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+}
+
+.elj2 {
+    position: absolute;
+    width: 270.35px;
+    height: 44.29px;
+    top: 2802.57px;
+    left: 373.21px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+
+}
+
+.josh1 {
+    position: absolute;
+    width: 270.35px;
+    height: 23.9px;
+    top: 2768.38px;
+    left: 678.39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+}
+
+.josh2 {
+    position: absolute;
+    width: 270.35px;
+    height: 44.29px;
+    top: 2802.57px;
+    left: 678.39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+
+}
+
+.lhizel1 {
+    position: absolute;
+    width: 270.35px;
+    height: 23.9px;
+    top: 2768.38px;
+    left: 982.92px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.lhizel2 {
+    position: absolute;
+    width: 270.35px;
+    height: 44.29px;
+    top: 2802.57px;
+    left: 982.92px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+
+}
+
+.pau1 {
+    position: absolute;
+    width: 270.35px;
+    height: 23.9px;
+    top: 2768.38px;
+    left: 1287.88px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.pau2 {
+    position: absolute;
+    width: 270.35px;
+    height: 44.29px;
+    top: 2802.57px;
+    left: 1287.88px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.line3 {
+    position: absolute;
+    width: 1173.38px;
+    height: 0px;
+    top: 2896.08px;
+    left: 381.98px;
+
+    border: 1px solid #990005;
+}
+
+.atkoi {
+    position: absolute;
+    width: 637.66px;
+    height: 95.61px;
+    Top: 2976px;
+    Left: 633px;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 102px;
+    text-align: center;
+}
