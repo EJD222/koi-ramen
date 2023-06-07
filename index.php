@@ -117,6 +117,56 @@
                 </div>
             </section>
 
+            <section class="menu-section">
+                <div class="menu-div">
+                    <div class="gradient-top">
+                        <p class="sb-title"> RAMEN HIGHLIGHTS </p>
+                    </div>
+
+                    <div class="menu-selection">
+
+                        <div class="menu-images">
+                            <div class="menu-1">
+                                <img src = "/images/spicy-beef-ramen.png" alt="Spicy Beef Ramen" class="spicy-beef-ramen" id="spicy-beef-ramen"/>
+                            </div>
+                            <div class="menu-2">
+                                <img src = "/images/hokkaido-miso-ramen.png" alt="Hokkaido Miso Ramen" class="hokkaido-miso-ramen" id="hokkaido-miso-ramen"/>
+                            </div>
+                            <div class="menu-3">
+                                <img src = "/images/black-garlic-chicken-ramen.png" alt="Black Garlic Chicken Ramen" class="black-garlic-chicken-ramen" id="black-garlic-chicken-ramen"/>
+                            </div>
+                        </div>
+
+                        <div class="menu-swipe">
+                            <div class="arrow-1">
+                                <img src = "/images/left-arrow.png" alt="Left Arrow" width="100" height="88"/>
+                            </div>
+                            <div class="menu-name">
+                                <p class="ramen-name">Hokkaido Miso Ramen</p>
+                            </div>
+                            <div class="arrow-2">
+                                <img src = "/images/right-arrow.png" alt="Right Arrow" width="100" height="88"/>
+                            </div>
+                        </div>   
+                        
+                        <div class="menu-details">
+                            <p class="ramen-detail" id="ramen-detail">
+                            A delectable and savory dish <br />
+                            originating from the northernmost <br />
+                            island of Japan, Hokkaido. 
+                            </p>
+                            <p class="ramen-price" id="ramen-price">P500</p>
+                        </div>   
+                        
+                        <div class="menu-bt-container" id="menu-button-container">
+                            <button type="button" class="menu-button" onclick="window.location.href='menu-ramen.php'">MENU</button>
+                        </div>  
+                    </div>
+
+                    <div class="gradient-bottom">
+                    </div>
+            </section>
+
             <section class="contact-us-section">
                 <div class="contact-us-div">
                     <img src = "/images/contact-us-background.png" alt="Contact Us Background" class="contact-us-bg"/> 
@@ -190,7 +240,7 @@
                         <p class = "reserve-now">Reserve Your Spot for a<br/> Memorable 
                         Ramen Experience!
                         </p>
-                        <button type="button" class="book-now-button">BOOK NOW</button>
+                        <button type="button" class="book-now-button" onclick="window.location.href='book-now.php'">BOOK NOW</button>
                     </div>   
                     <div class="bk-images">
                         <img src = "/images/lantern.jpg" alt="Lantern" class="lantern"/>
@@ -209,8 +259,7 @@
                 
         </div>
     </div>
-
-
-
+    
+    <script src="script.js"></script>
 </body>
 </html>
