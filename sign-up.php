@@ -16,53 +16,45 @@
 <body>
     <div class="guide">
         <div class="child">
-        <?php 
-            //Call Menu Bar
-            include 'menu-bar.php'; 
-        ?>
+            <?php 
+                //Call Menu Bar
+                include 'menu-bar.php'; 
+            ?>
 
-        <section class="whole-section">
+            <section class="whole-section">
+                <div class= "sign-up-div">
+                    <div class="black-bg">
+                        <div>
+                            <h1  class="signup">SIGN UP</h1>
+                        </div>
+                        <div>
+                            <p  class="signup-text">Please create an account.</p>
+                        </div>
+                        <div class="signup-form">
+                            <form>
+                                <p>USER NAME</p>
+                                    <input type="text" name="username"  id="user_name" placeholder="Enter Email">
+                                <p>EMAIL ADDRESS</p>
+                                    <input type="email" name="email_address" id="email_address" placeholder="Enter Password">
+                                <p>PASSWORD</p>
+                                    <input type="password" name="password" id="password" placeholder="Enter Password">
+                                <p>CONFIRM PASSWORD</p>
+                                    <input type="password" name="confirm_password" id="confirm_password" placeholder="Confirm Password"> <br /  >
+                                    <button class="sign-up">SIGN UP</button>
+                            </form>
+                        </div>
+                        <div>
+                            <p class="signup-text2">Already have an account? <a href="log-in.php">Login</a></p>
+                        </div>
 
-            <div class= "signup-bg">
-                <img src="images/ls-bg.jpg" alt="Log In" class="log-in-bg">
-            </div>
-            <div class="black-bg"></div>
+                    </div>
+                </div>
+            </section>
 
-            <div>
-                <h1  class="signup">SIGN UP
-            </div>
-            <div>
-                <p  class="signup-text">Please create an account.
-            </div>
-
-            <form>
-            <div class="signup-form">
-                <form>
-                <p>USER NAME</ADDRESS><p>
-                    <input type="text" name="username"  id="user_name" placeholder="Enter Email">
-
-                <p>EMAIL ADDRESS<p>
-                    <input type="email" name="email_address" id="email_address" placeholder="Enter Password">
-
-                <p>PASSWORD<p>
-                    <input type="password" name="password" id="password" placeholder="Enter Password">
-
-                <p>CONFIRM PASSWORD<p>
-                    <input type="password" name="confirm_password" id="confirm_password" placeholder="Confirm Password">
-
-                    <button class="sign-up">SIGN UP</button>
-            </div>
-            </form>
-
-            <div>
-                <p class="signup-text2">Already have an account? Login
-            </div>
-        </section>
-
-        <?php 
-            //Call Footer
-            include 'footer.php'; 
-        ?> 
+            <?php 
+                //Call Footer
+                include 'footer.php'; 
+            ?> 
         </div>
     </div>
 </body>
