@@ -1,0 +1,117 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.guide {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+}
+
+
+.bookatn-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bookatn-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+.book-now {
+    width: 630px;
+    height: 636px;
+    object-fit: cover;
+}
+
+.batn-details {
+    padding-left: 68px;
+}
+
+.batn-title {
+    font-family: 'Syncopate', sans-serif;
+    font-size: 3.75rem;
+}
+
+.batn-tagline{
+    font-family: 'Syne', sans-serif;
+    font-size: 1.25rem;
+    color: #990005;
+}
+
+.batn-desc {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    margin: 34px 0;
+}
+
+.book-now-button {
+    height: 72.15px;
+    width: 324.69px;
+    font-size: 1rem;
+    font-family: 'Syne', sans-serif;
+    background-color: transparent;
+    border: 3px solid #990005;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+.book-now-button:hover {
+    background-color: #990005; 
+    border: none;
+}
+
+.lfq-section {
+    display: flex;
+    justify-content: center;
+    background-color:#000000;
+}
+
+.lfq-div {
+    display: flex;
+    justify-content: space-between;
+    background-color:#000000;
+    width: 1290px;
+    padding-bottom: 61px;
+}
+
+.fish {
+    z-index: 1;
+}
+
+.koi-fish2 {
+    margin: -120px 0 0 30px;
+    width: 480.88px;
+    height: 410.58px;
+    object-fit: cover;
+}
+
+.hr-line hr {
+    margin: 60px 0;
+    border: none;
+    height: 3px;
+    background-color: #990005;
+    width: 898.49px;
+}
+
+.quote-text {
+    font-family: 'Syne', sans-serif;
+    font-size: 2.313rem;
+}
