@@ -186,3 +186,15 @@ body {
 .schedule-title, .mon-to-fri, .sat-and-sun {
     margin-bottom: 40px;
 }
+
+.form-container hr {
+    border-top: 1px solid #FFFFFF;
+    width: 588px;
+    margin-bottom: 20px;
+}
+
+.email-container {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 0.938rem;
+}
