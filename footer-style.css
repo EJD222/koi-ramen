@@ -9,7 +9,7 @@
 footer {
     width: 100%;
     background-color: #990005;
-    padding: 2.2% 2%; 
+    padding: 2.2% 2%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,23 +23,20 @@ footer {
 
 .footer-container img {
     align-self: center;
-    margin-left: 1.8%;
-    margin-top: 1.6%;
+    margin: 1.6% 0 0 1.8%;
 }
 
 .vertical-line {
     display: flex;
     border-left: 3px solid #000000;
     height: 153px;
-    margin-left: 7%;
-    margin-right: 5.5%;
-    margin-top: 1%;
+    margin: 1% 5.5% 0 7%;
 }
 
 .content {
     display: flex;
     flex-direction: column;
-} 
+}
 
 .details {
     display: flex;
@@ -50,7 +47,7 @@ footer {
 .address,
 .opening-hours {
     width: 30%;
-    flex-shrink: 0; /* Prevent flex items from shrinking */
+    flex-shrink: 0;
     margin-right: 12%;
     margin-bottom: 37px;
 }
@@ -67,7 +64,20 @@ footer {
     font-weight: 300;
 }
 
-.copyright {
-    width: 105%;
-    margin-bottom: 2%;
+.content-details,
+.title-of-details {
+    margin-bottom: 3%;
+}
+
+.opening-hours,
+.address {
+    margin-bottom: 37px;
+}
+
+.footer-container img {
+    margin: 1.6% 0 0 1.8%;
+}
+
+.vertical-line {
+    margin: 1% 5.5% 0 7%;
 }

@@ -30,28 +30,28 @@
                     <p class ="brand-name">KOI RAMEN</p>
                 </div>
                 <div class ="welcome-images">
-                    <img src = "/images/ramen-bar.jpg" alt="Ramen Bar" style="width: 1348.43px; height: 527.51px; object-fit: cover;" class="ramen-bar-w"/>
-                    <img src = "/images/center-piece.png" alt="Ramen" style="width: 1091.35px; height: 1093.93px; object-fit: cover;" class="center-piece-w"/>
+                    <img src = "images/ramen-bar.jpg" alt="Ramen Bar" style="width: 1182.52px; height: 462.6px; object-fit: cover;" class="ramen-bar-w"/>
+                    <img src = "images/center-piece.png" alt="Ramen" style="width: 957.07px; height: 959.33px; object-fit: cover;" class="center-piece-w"/>
                 </div>
             </section>
 
             <section class="icons-section">
                 <div class="authentic-div">
                     <div class="authentic-details">
-                        <img src = "/images/authentic.png" alt="Authentic" class="authentic"/>
+                        <img src = "images/authentic.png" alt="Authentic" class="authentic"/>
                         <p class="authentic-lbl">Authentic</p>
                     </div>
                 </div>
                 <div class="flavorful-div">
                     <div class="horizontal-line-1"></div>
                     <div class="flavorful-details">
-                        <img src = "/images/flavorful.png" alt="Flavorful" class="flavorful"/>
+                        <img src = "images/flavorful.png" alt="Flavorful" class="flavorful"/>
                         <p class="flavorful-lbl">Flavorful</p>
                     </div>
                     <div class="horizontal-line-2"></div>
                 </div>
                 <div class="quality-div">
-                    <img src = "/images/quality.png" alt="Quality" width="100" height="100" class="quality"/>
+                    <img src = "images/quality.png" alt="Quality" width="100" height="100" class="quality"/>
                     <p class="quality-lbl">Quality</p>
                 </div>
             </section>
@@ -67,8 +67,8 @@
                     that awaits you at our esteemed establishment. <br />
                     <button type="button" class="about-button" onclick="window.location.href='about-us.php'">ABOUT US</button>
                 </div>
-                <img src = "/images/about-ramen.png" alt="About Ramen" class="about-ramen"/>
-                <img src = "/images/wave2.png" alt="Wave 2" class="wave2" />
+                <img src = "images/about-ramen.png" alt="About Ramen" class="about-ramen"/>
+                <img src = "images/wave2.png" alt="Wave 2" class="wave2" />
             </section>
     
             <section class="ramen-chronicles-section">
@@ -119,13 +119,13 @@
 
             <section class="menu-section">
                 <p> SIGNATURE BOWLS </p>
-                <img src = "/images/koi.png" alt="Koi Circle" width="400" height="450"/>
-                <img src = "/images/hokkaido-miso-ramen.png" alt="Hokkaido Miso Ramen" width="300" height="300"/>
-                <img src = "/images/spicy-beef-ramen.png" alt="Spicy Beef Ramen" width="200" height="200"/>
-                <img src = "/images/black-garlic-chicken-ramen.png" alt="Black Garlic Chicken Ramen" width="200" height="200"/>
-                <img src = "/images/arrow.png" alt="Arrow" width="100" height="88"/>
+                <img src = "images/koi.png" alt="Koi Circle" width="400" height="450"/>
+                <img src = "images/hokkaido-miso-ramen.png" alt="Hokkaido Miso Ramen" width="300" height="300"/>
+                <img src = "images/spicy-beef-ramen.png" alt="Spicy Beef Ramen" width="200" height="200"/>
+                <img src = "images/black-garlic-chicken-ramen.png" alt="Black Garlic Chicken Ramen" width="200" height="200"/>
+                <img src = "images/arrow.png" alt="Arrow" width="100" height="88"/>
                 <p>Hokkaido Miso Ramen</p>
-                <img src = "/images/arrow.png" alt="Arrow" width="100" height="88"/>
+                <img src = "images/arrow.png" alt="Arrow" width="100" height="88"/>
                 <p>A rich and hearty noodle soup with <br />
                 a savory miso broth, topped with <br />
                 various ingredients. <br />
@@ -136,7 +136,7 @@
 
             <section class="contact-us-section">
                 <div class="contact-us-div">
-                    <img src = "/images/contact-us-background.png" alt="Contact Us Background" class="contact-us-bg"/> 
+                    <img src = "images/contact-us-background.png" alt="Contact Us Background" class="contact-us-bg"/> 
                     <div class="contact-us-details">
                         <div class="contact-us-text">
                             <p class="cs-title">Reach Out and Let Your<br />
