@@ -28,11 +28,11 @@
                     <div class="thank-you-details">
                         <p class="ty-title">THANK YOU <br /> FOR CHOOSING <br /> KOI RAMEN!</p>
                         <p class="ty-details"> 
-                            We are thrilled to confirm your reservation for <span>[date]</span> at <span>[time]</span>. We look <br />
+                            We are thrilled to confirm your reservation for <span><?php echo $_GET['date']; ?></span> at <span><?php echo $_GET['time']; ?></span>. We look <br />
                             forward to welcoming you and ensuring a delightful culinary journey at our<br />
                             restaurant.<br />
                             <br />
-                            Please note that your reservation is for <span>[number of guests]</span> persons. If <br />
+                            Please note that your reservation is for <span><?php echo $_GET['guests']; ?></span> persons. If <br />
                             there are any changes or updates to your reservation, kindly inform us in <br />
                             advance, and we will be happy to assist you.<br />
                             <br />
@@ -42,7 +42,7 @@
                             bowl with the freshest ingredients and a dedication to culinary excellence.
                         </p>
 
-                        <button type="button" class="return-button" onclick="window.location.href='index.php'">RETURN</button>
+                        <button type="button" class="return-button" onclick="window.location.href='reset-session.php'">RETURN</button>
                     </div>
                     <div class="thank-you-image">
                         <img src = "/images/japanese-restaurant.jpg" alt="Japanese Restaurant" class="japanese-restaurant"/>

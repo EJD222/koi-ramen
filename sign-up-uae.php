@@ -27,7 +27,7 @@
                         <p class="main-error"> OH NO! USER ALREADY <br /> EXISTS! </p>
                         <p class="error-desc"> The email you entered is not available. </p>
                         <p  class="error-details"> The email you provided is already registered to another user. Please use another email to complete the registration.</p>
-                        <button type="button" class="return-button" onclick="window.location.href='sign-up.php'">RETURN TO SIGN UP</button>
+                        <button type="button" class="return-button" onclick="window.location.href='signup.php'">RETURN TO SIGN UP</button>
                     </div>
                 </div>
             </section>

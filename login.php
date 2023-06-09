@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Syncopate:wght@700&family=Syne:wght@600;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="log-in-style.css">
+    <link rel="stylesheet" href="login-style.css">
 
     <title>Log In</title>
 </head>
@@ -31,7 +31,7 @@
                             <p class="login-text">Please login to save your reservation.</p>
                         </div>
                         <div class="login-form">
-                            <form>
+                            <form action="login-function.php" method="POST">
                                 <p>EMAIL ADDRESS</p>
                                     <input type="email" name="email"  id="email" placeholder="Enter Email">
                                 <p>PASSWORD</p>
@@ -42,7 +42,7 @@
                                         <p class="login-text2">OR</p>
                                         <div class="line2"></div>
                                     </div>
-                                    <button class="sign-up">SIGN UP</button>
+                                    <button type="button" class="sign-up" onclick="window.location.href='signup.php'">SIGN UP</button>
                             </form>  
                         </div> 
                     </div> 

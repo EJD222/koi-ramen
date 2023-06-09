@@ -69,7 +69,8 @@ body {
 
 p span {
     color: #990005;
-    font-family: 'Syne', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
     font-size: 1rem;
 }
 

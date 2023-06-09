@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Syncopate:wght@700&family=Syne:wght@600;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="sign-up-style.css">
+    <link rel="stylesheet" href="signup-style.css">
 
     <title>Sign Up</title>
 </head>
@@ -31,11 +31,11 @@
                             <p  class="signup-text">Please create an account.</p>
                         </div>
                         <div class="signup-form">
-                            <form>
+                            <form name="signupform" action="signup-function.php" method="POST" onsubmit="return validateForm()">
                                 <p>USER NAME</p>
-                                    <input type="text" name="username"  id="user_name" placeholder="Enter Email">
+                                    <input type="text" name="user_name"  id="user_name" placeholder="Enter Email">
                                 <p>EMAIL ADDRESS</p>
-                                    <input type="email" name="email_address" id="email_address" placeholder="Enter Password">
+                                    <input type="email" name="email" id="email_address" placeholder="Enter Password">
                                 <p>PASSWORD</p>
                                     <input type="password" name="password" id="password" placeholder="Enter Password">
                                 <p>CONFIRM PASSWORD</p>
@@ -44,13 +44,13 @@
                             </form>
                         </div>
                         <div>
-                            <p class="signup-text2">Already have an account? <a href="log-in.php">Login</a></p>
+                            <p class="signup-text2">Already have an account? <a href="login.php">Login</a></p>
                         </div>
 
                     </div>
                 </div>
             </section>
-
+            <script src="signup-validation.js"></script>
             <?php 
                 //Call Footer
                 include 'footer.php'; 

@@ -27,7 +27,7 @@
                         <p class="main-error"> ACCESS DENIED! <br /> INVALID CREDENTIALS. </p>
                         <p class="error-desc"> Please recheck your credentials. </p>
                         <p  class="error-details"> You are seeing this page because your password does not match or the email you typed is wrong. Please check again. </p>
-                        <button type="button" class="return-button" onclick="window.location.href='log-in.php'">RETURN TO LOG IN</button>
+                        <button type="button" class="return-button" onclick="window.location.href='login.php'">RETURN TO LOG IN</button>
                     </div>
                 </div>
             </section>

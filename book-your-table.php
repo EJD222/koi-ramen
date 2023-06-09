@@ -19,6 +19,8 @@
             <?php 
                 //Call Menu Bar
                 include 'menu-bar.php'; 
+
+                SESSION_START();
             ?> 
 
             <section class="byt-section">
@@ -30,22 +32,22 @@
                     
                     <div class="form-details-container">
                         <div class="form-container">
-                            <form>
-                                <label for="name">FULL NAME<span class="required">*</span></label>
-                                <input type="text" name="name" required/><br />
+                            <form action="book-function.php" method="POST">
+                                <label for="full_name">FULL NAME<span class="required">*</span></label>
+                                <input type="text" name="full_name" required/><br />
 
                                 <label for="email">RESERVATION FOR<span class="required">*</span></label>
-                                <p class="email-container">Call Email Here.</p>
+                                <p class="email-container"><?php echo $_SESSION["email"];?></p>
                                 <hr>
 
                                 <label for="phone-number">PHONE NUMBER<span class="required">*</span></label>
-                                <input type="tel" name="phone-number" required/><br />
+                                <input type="tel" name="phone_number" required/><br />
 
                                 <label for="reservation-date">RESERVATION DATE<span class="required">*</span></label>
-                                <input type="date" name="reservation-date" required/><br />
+                                <input type="date" name="reservation_date" required/><br />
 
                                 <label for="reservation-date">RESERVATION TIME<span class="required">*</span></label>
-                                <input type="time" name="reservation-time" required/><br />
+                                <input type="time" name="reservation_time" required/><br />
 
                                 <label for="persons">HOW MANY PERSONS WILL YOU BE WITH?<span class="required">*</span></label>
                                 <input type="text" name="persons" required/><br />

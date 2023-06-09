@@ -27,7 +27,7 @@
                         <p class="main-error"> USER REGISTERED <br /> SUCCESSFULLY! </p>
                         <p class="error-desc"> Your can now use your registered account. </p>
                         <p  class="error-details"> Please use the email and password you entered during the Sign Up to log in and book your table. Thank you. </p>
-                        <button type="button" class="return-button" onclick="window.location.href='log-in.php'">PROCEED TO LOG IN</button>
+                        <button type="button" class="return-button" onclick="window.location.href='login.php'">PROCEED TO LOG IN</button>
                     </div>
                 </div>
             </section>
