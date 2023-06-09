@@ -1,0 +1,21 @@
+//Table for users
+CREATE TABLE users (
+			id INT AUTO_INCREMENT PRIMARY KEY,
+			user_name VARCHAR(125) NOT NULL,
+			email VARCHAR(255) UNIQUE NOT NULL,
+			pass VARCHAR(255) NOT NULL,
+			salt VARCHAR(32) NOT NULL
+		)
+
+//Table for reservations
+CREATE TABLE reservations (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  full_name VARCHAR(255) NOT NULL,
+  email VARCHAR(255) NOT NULL,
+  phone_number VARCHAR(20) NOT NULL,
+  reservation_date DATE NOT NULL,
+  reservation_time TIME NOT NULL,
+  persons INT NOT NULL,
+  notes TEXT,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+)
