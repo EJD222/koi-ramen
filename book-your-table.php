@@ -19,11 +19,16 @@
             <?php 
                 //Call Menu Bar
                 include 'menu-bar.php'; 
+<<<<<<< HEAD
 
                 SESSION_START();
             ?> 
 
 
+=======
+            ?> 
+
+>>>>>>> 940cd776bde42f29b8608d5d3788197b0ed4d563
             <section class="byt-section">
                 <div class="byt-div">
                     <div class="welcome-title">
@@ -33,6 +38,7 @@
                     
                     <div class="form-details-container">
                         <div class="form-container">
+<<<<<<< HEAD
                             <form action="book-function.php" method="POST">
                                 <label for="name">FULL NAME<span class="required">*</span></label>
                                 <input type="text" name="full_name" required/><br />
@@ -49,6 +55,23 @@
 
                                 <label for="reservation-date">RESERVATION TIME<span class="required">*</span></label>
                                 <input type="time" name="reservation_time" required/><br />
+=======
+                            <form>
+                                <label for="name">FULL NAME<span class="required">*</span></label>
+                                <input type="text" name="name" required/><br />
+
+                                <label for="email">EMAIL ADDRESS<span class="required">*</span></label>
+                                <input type="email" name="email" required/><br />
+
+                                <label for="phone-number">PHONE NUMBER<span class="required">*</span></label>
+                                <input type="tel" name="phone-number" required/><br />
+
+                                <label for="reservation-date">RESERVATION DATE<span class="required">*</span></label>
+                                <input type="date" name="reservation-date" required/><br />
+
+                                <label for="reservation-date">RESERVATION TIME<span class="required">*</span></label>
+                                <input type="time" name="reservation-time" required/><br />
+>>>>>>> 940cd776bde42f29b8608d5d3788197b0ed4d563
 
                                 <label for="persons">HOW MANY PERSONS WILL YOU BE WITH?<span class="required">*</span></label>
                                 <input type="text" name="persons" required/><br />

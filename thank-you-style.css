@@ -1,0 +1,90 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.guide {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+}
+
+.thank-you-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    width: 100%;
+}
+
+.thank-you-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+.thank-you-details {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #000000;
+    width: 764px;
+    height: 809px;
+    padding: 0 36px;
+}
+
+.thank-you-image {
+    height: 809px;
+}
+
+.ty-title {
+    font-family: 'Syncopate', sans-serif;
+    font-size: 3.75rem;
+}
+
+.ty-details {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    margin: 25px 0;
+}
+
+.japanese-restaurant {
+    width: 616px;
+    height: 809px;
+    object-fit: cover;
+}
+
+p span {
+    color: #990005;
+    font-family: 'Syne', sans-serif;
+    font-size: 1rem;
+}
+
+.return-button {
+    height: 72.15px;
+    width: 556.13px;
+    font-size: 1rem;
+    font-family: 'Syne', sans-serif;
+    background-color: transparent;
+    border: 3px solid #990005;
+    border-radius: 10px;
+    margin-top: 15px;
+  }
+  
+.return-button:hover {
+    background-color: #990005; 
+    border: none;
+}

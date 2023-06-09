@@ -42,7 +42,11 @@
                            finest ramen in. Book your table today and prepare to be captivated by <br />
                            the exquisite flavors and enchanting atmosphere that await you at Koi Ramen.<br />
                         </p>
+<<<<<<< HEAD
                         <button type="button" class="book-now-button" onclick="window.location.href='login.php'">BOOK NOW</button>
+=======
+                        <button type="button" class="book-now-button" onclick="window.location.href='log-in.php'">BOOK NOW</button>
+>>>>>>> 940cd776bde42f29b8608d5d3788197b0ed4d563
                     </div>
                 </div>
             </section>

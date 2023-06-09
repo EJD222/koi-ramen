@@ -1,0 +1,188 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.guide {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+}
+
+.byt-section {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.byt-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/images/booking-lantern.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding: 85px 0;
+    width: 100%;
+}
+
+.welcome-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.title {
+    font-family: 'Syncopate', sans-serif;
+    font-size: 3.75rem;
+}
+
+.tagline {
+    font-family: 'Syne', sans-serif;
+    font-size: 1.25rem;
+    color: #990005;
+}
+
+.form-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    opacity: 0.95;
+    padding: 49px;
+    height: 937px;
+    width: 679px;
+    margin-left: 11px;
+}
+
+.details-container {
+    display: flex;
+    background-color: #000000;
+    opacity: 0.9;
+    justify-content: center;
+    align-items: center;
+    width: 679px;
+    height: 937px;
+}
+
+.form-container label {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 1.125rem;
+    display: block;
+    margin-bottom: 17px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="tel"],
+.form-container input[type="date"],
+.form-container input[type="time"],
+.form-container textarea {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 1.125rem;
+  display: block;
+}
+
+.required {
+    color: #990005;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="tel"],
+.form-container input[type="date"],
+.form-container input[type="time"] {
+  border: none;
+  border-bottom: 1px solid #FFFFFF;
+  outline: none;
+  background-color: transparent;
+  width: 588px;
+  margin-bottom: 6px;
+}
+
+.form-container input[type="date"]::-webkit-calendar-picker-indicator,
+.form-container input[type="time"]::-webkit-calendar-picker-indicator {
+  filter: invert(1); /* Invert the icon color to white */
+}
+
+.form-container textarea {
+    border: 1px solid #FFFFFF;
+    outline: none;
+    resize: vertical;
+    background-color: transparent;
+    border-radius: 10px;
+    width: 588px;
+    height: 157px;
+    margin-bottom: 32px;
+}
+
+.reserve-button {
+    height: 72.15px;
+    width: 594px;
+    font-size: 1rem;
+    font-family: 'Syne', sans-serif;
+    background-color: #990005;
+    border: 3px solid #990005;
+    border-radius: 10px;
+}
+    
+.reserve-button:hover {
+    background-color: transparent;
+    border: 3px solid #990005;
+}
+
+.line {
+    border-left: 1px solid #FFFFFF;
+    height: 740px;  
+    margin-left: -30px;
+}
+
+.schedule {
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 82px;
+}
+
+.oh {
+    font-family: 'Syne', sans-serif;
+    font-size: 2.188rem;
+    color: #990005;
+}
+
+.mtf, .sas {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.time {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 0.938rem;
+}
+
+.schedule-title, .mon-to-fri, .sat-and-sun {
+    margin-bottom: 40px;
+}

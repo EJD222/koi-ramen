@@ -10,7 +10,7 @@
 
 <footer>
   <div class="footer-container">
-    <img src="images/koi-ramen-logo.png" alt="Logo">
+    <a href="index.php"><img src="images/logo-footer.png" alt="Logo"></a>  
     <div class="vertical-line"></div>
     <div class="content">
 

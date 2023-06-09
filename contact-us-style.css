@@ -1,0 +1,223 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.guide {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  background-color: #000000;
+}
+
+.child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw; 
+}
+
+.contact-us-section {
+  display: flex;
+  background-color: #000000;
+  justify-content: center;
+  width: 100%;
+}
+
+.cs-welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #990005;
+  width: 100%;
+}
+
+.cs-w2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #990005;
+  width: 1296px;
+  padding: 57px;
+}
+
+.night-market {
+  width: 555px;
+  height: 518px;
+  object-fit: cover;
+}
+
+.cs-text {
+  font-family: 'Syncopate', sans-serif;
+  font-size: 3.125rem;
+}
+
+.cs-tagline {
+  font-family: 'Syne', sans-serif;
+  font-size: 1.125rem;
+  color: #000000;
+}
+
+.cs-details {
+  padding-right: 40px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.contact-us-form-section {
+  display: flex;
+  background-color: #000000;
+  justify-content: center;
+  width: 100%;
+}
+
+.cs-form {
+  display: flex;
+  background-color: #000000;
+  justify-content: center;
+  align-items: center;
+  padding: 53px;
+}
+
+.form-container {
+  background-color: #000000;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 534px;
+  padding-right: 53px;
+}
+
+
+.address-icon, .contact-icon,
+.email-icon {
+  width: 101.83px;
+  height: 110.78px;
+}
+
+.form-container label {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 1.125rem;
+  display: block;
+  margin-bottom: 17px;
+}
+
+.form-container label::after {
+  content: '*';
+  color: #990005;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"] {
+  border: none;
+  border-bottom: 1px solid #990005;
+  outline: none;
+  background-color: transparent;
+  width: 557.75px;
+}
+
+.form-container textarea {
+  border: 1px solid #990005;
+  outline: none;
+  resize: vertical;
+  background-color: transparent;
+  border-radius: 10px;
+  width: 557.75px;
+  height: 175.39px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container textarea {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 0.813rem;
+  display: block;
+}
+
+.cs-logo-info {
+  display: flex;
+  flex-direction: column;
+  width: 555px;
+  height: 534px;
+  background-color: #990005;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.ad-div,
+.cn-div,
+.em-div {
+  display: flex;
+}
+
+.logo-info-title{
+  font-family: 'Syne', sans-serif;
+  font-size: 1.625rem;
+}
+
+.logo-info-details {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 1.063rem;
+}
+
+.contact-number-info, .email-info {
+  margin-top: 25px;
+}
+
+.address-info, .contact-number-info, .email-info {
+  margin-left: 28px;
+}
+
+.submit-button {
+  height: 72.15px;
+  width: 559.5px;
+  font-size: 1rem;
+  font-family: 'Syne', sans-serif;
+  background-color: #990005;
+  border: 3px solid #990005;
+  border-radius: 10px;
+}
+  
+.submit-button:hover {
+  background-color: transparent;
+  border: 3px solid #990005;
+}
+
+.ramen-bar-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  width: 100%;
+  position: relative;
+}
+
+.ramen-bar-img {
+  position: relative;
+  background-color: #000000;
+  padding-bottom: 53px;
+}
+
+.customer {
+  width: 1189.15px;
+  height: 558.62px;
+  object-fit: cover;
+}
+
+.soc-med-tag {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Syne', sans-serif;
+  font-size: 6.25rem;
+  color: #990005;
+}

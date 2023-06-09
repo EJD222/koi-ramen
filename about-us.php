@@ -45,7 +45,11 @@
             <div class="line1"></div>
 
             <div class="about1">
+<<<<<<< HEAD
                 <img src="images/about-1.png" alt="About 1" style="width: 561.03px; height: 711.48px; object-fit: cover;">
+=======
+                <img src="images/about-1.jpg" alt="About 1" style="width: 561.03px; height: 711.48px; object-fit: cover;">
+>>>>>>> 940cd776bde42f29b8608d5d3788197b0ed4d563
             </div>
 
             <div>
@@ -78,10 +82,17 @@
                 </p>
             </div>
             <div class="koifish">
+<<<<<<< HEAD
                 <img src="images/koi-fish-3.png" alt="koifish" >
             </div>
             <div class="about-us3">
                 <h1>ABOUT <br />US</h1>
+=======
+                <img src="images/koi-fish-3.png" alt="Koi Fish" >
+            </div>
+            <div class="about-us3">
+                <h1 class="ab-text">ABOUT<br />US</h1>
+>>>>>>> 940cd776bde42f29b8608d5d3788197b0ed4d563
             </div>
 
             <div class="redbg"></div>
@@ -112,7 +123,11 @@
             </div>
 
             <div class="about2">
+<<<<<<< HEAD
                 <img src="images/about-2.png" alt="about2" >
+=======
+                <img src="images/about-2.jpg" alt="About 2" style="width: 593px; height: 570.9px; object-fit: cover;">
+>>>>>>> 940cd776bde42f29b8608d5d3788197b0ed4d563
             </div>
             <div class="line2"></div>
 
@@ -120,6 +135,7 @@
                 <h2>Meet Our Amazing team</h2>
             </div>
             <div class="team">
+<<<<<<< HEAD
                 <img src="images/team.png" alt="team" > <!--Please rename image name-->
             </div>
             <div>
@@ -138,16 +154,43 @@
             </div>
             <div>
                 <p class="lhizel1"> Lhizel N. Tabual</p>
+=======
+                <img src="images/team.png" alt="Team" >
+            </div>
+            <div>
+                <p class="elj1">Elmalia Jane S. Diaz</p>
+            </div>
+            <div>
+                <p class="elj2">Full-Stack Developer
+                    <br />UI/UX Designer</p>
+            </div>
+            <div>
+                <p class="josh1">Joshua Benneth P. Daguio</p>
+            </div>
+            <div>
+                <p class="josh2">Full-Stack Developer
+                    <br />Brand Designer</p>
+            </div>
+            <div>
+                <p class="lhizel1">Lhizel N. Tabual</p>
+>>>>>>> 940cd776bde42f29b8608d5d3788197b0ed4d563
             </div>
             <div>
                 <p class="lhizel2"> Front-End Developer
                     <br />UI/UX Designer</p>
             </div>
             <div>
+<<<<<<< HEAD
                 <p class="pau1"> Paulo C. Bondoc</p>
             </div>
             <div>
                 <p class="pau2"> Front-End Developer
+=======
+                <p class="pau1">Paulo C. Bondoc</p>
+            </div>
+            <div>
+                <p class="pau2">Front-End Developer
+>>>>>>> 940cd776bde42f29b8608d5d3788197b0ed4d563
                     <br />UI/UX Designer</p>
             </div>
 
@@ -155,9 +198,13 @@
             <div class="atkoi">
                 <p>@koiramen</p>
             </div>
+<<<<<<< HEAD
 
         </section>
 
+=======
+        </section>
+>>>>>>> 940cd776bde42f29b8608d5d3788197b0ed4d563
         <?php 
             //Call Footer
             include 'footer.php'; 

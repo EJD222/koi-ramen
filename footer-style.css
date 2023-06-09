@@ -54,16 +54,17 @@ footer {
 
 .title-of-details {
     font-family: 'Syne', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.063rem;
     margin-bottom: 3%;
 }
 
 .content-details {
     font-family: 'Inter', sans-serif;
-    font-size: 1rem;
+    font-size: 0.75rem;
     font-weight: 300;
 }
 
+<<<<<<< HEAD
 .content-details,
 .title-of-details {
     margin-bottom: 3%;
@@ -81,3 +82,11 @@ footer {
 .vertical-line {
     margin: 1% 5.5% 0 7%;
 }
+=======
+.copyright {
+    width: 112%;
+    margin-bottom: 2%;
+}
+
+
+>>>>>>> 940cd776bde42f29b8608d5d3788197b0ed4d563

@@ -60,9 +60,15 @@
             <section class="contact-us-form-section">    
                 <div class="cs-form">
                     <div class="form-container">
+<<<<<<< HEAD
                         <form action="contact-function.php" method="POST">
                             <label for="name">NAME</label>
                             <input type="text" name="name" required/><br />
+=======
+                        <form>
+                            <label for="complete-name">FULL NAME</label>
+                            <input type="text" name="complete-name" required/><br />
+>>>>>>> 940cd776bde42f29b8608d5d3788197b0ed4d563
 
                             <label for="email">EMAIL ADDRESS</label>
                             <input type="email" name="email" required/><br />
@@ -73,7 +79,11 @@
                             <label for="message">MESSAGE</label>
                             <textarea name="message" id="message"></textarea><br />
 
+<<<<<<< HEAD
                             <button type="submit" value="Submit" class="submit-button">SUBMIT</button>
+=======
+                            <button type="submit" value="Submit" class="submit-button">Submit</button>
+>>>>>>> 940cd776bde42f29b8608d5d3788197b0ed4d563
                         </form>
                     </div>
 
