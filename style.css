@@ -10,10 +10,7 @@ body {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-<<<<<<< HEAD
-=======
   background-color: #000000;
->>>>>>> 940cd776bde42f29b8608d5d3788197b0ed4d563
 }
 
 .child {
@@ -182,7 +179,7 @@ body {
 }
 
 .ramen-chronicles-section {
-  background-color: yellow;
+  background-color: #000000;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -238,14 +235,6 @@ body {
   font-family: 'Inter', sans-serif;
   font-weight: 300;
   font-size: 0.813rem;
-<<<<<<< HEAD
-}
-
-.menu-section {
-  padding-bottom: 600px;
-  background-color: pink;
-=======
->>>>>>> 940cd776bde42f29b8608d5d3788197b0ed4d563
 }
 
 .contact-us-section {
