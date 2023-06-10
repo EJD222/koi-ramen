@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Dynalight&family=Inter:wght@300&family=Syncopate:wght@700&family=Syne:wght@600;700&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="menu-ramen-style.css">
-
+    <link rel="icon" type="image/png" href="/images/no-text.png"/>
     <title>Menu</title>
 </head>
 <body>

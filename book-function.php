@@ -32,7 +32,14 @@ if (($dayOfWeek == 6 || $dayOfWeek == 7) && ($hour < 11 || $hour >= 24)) {
 }
 
 if (!$openingHourAllowed) {
-    echo "Reservation not allowed during closed hours.";
+    header("Location: book-your-table-ch.php");
+    exit;
+}
+
+// Check if the reservation date is in the past
+$currentDateTime = time();
+if ($reservationDateTime < $currentDateTime) {
+    header("Location: book-your-table-wd.php");
     exit;
 }
 

@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Syncopate:wght@700&family=Syne:wght@600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="contact-us-style.css">
-
+    <link rel="icon" type="image/png" href="/images/no-text.png"/>
     <title>Contact Us</title>
 </head>
 <body>
@@ -71,7 +71,7 @@
                             <input type="text" name="subject" required/><br />
 
                             <label for="message">MESSAGE</label>
-                            <textarea name="message" id="message"></textarea><br />
+                            <textarea name="message" id="message" required></textarea><br />
 
                             <button type="submit" value="Submit" class="submit-button">Submit</button>
                         </form>
