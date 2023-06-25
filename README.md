@@ -1,4 +1,4 @@
-# Koi Ramen
+# Koi Ramen 🍜
 
 Introducing Koi Ramen! A place that will make your taste buds dance and fill you with joy and flavor. Prepare to embark on a delightful culinary adventure that will leave you craving for more. At Koi Ramen, food should not only satisfy your hunger but also give you an amazing experience that will make you feel the sensation of flavors that originated from Japan. 
 
